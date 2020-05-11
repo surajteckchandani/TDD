@@ -16,7 +16,7 @@ public class LeapYearTest {
 	}
 
 	@Test
-	public void testIsLeap() {
+	public void testIsLeapYear() {
 		assertTrue(leapYear.isLeap(2004));
 	}
 
@@ -26,57 +26,57 @@ public class LeapYearTest {
 	}
 
 	@Test
-	public void test2000IsLeap() {
+	public void test2000IsLeapYear() {
 		assertTrue(leapYear.isLeap(2000));
 	}
 
 	@Test
-	public void test1700IsLeap() {
+	public void test1700IsLeapYear() {
 		assertFalse(leapYear.isLeap(1700));
 	}
 
 	@Test
-	public void test1800IsLeap() {
+	public void test1800IsLeapYear() {
 		assertFalse(leapYear.isLeap(1800));
 	}
 
 	@Test
-	public void test1900IsLeap() {
+	public void test1900IsLeapYear() {
 		assertFalse(leapYear.isLeap(1900));
 	}
 
 	@Test
-	public void test2100IsLeap() {
+	public void test2100IsLeapYear() {
 		assertFalse(leapYear.isLeap(2100));
 	}
 
 	@Test
-	public void test2008IsLeap() {
+	public void test2008IsLeapYear() {
 		assertTrue(leapYear.isLeap(2008));
 	}
 
 	@Test
-	public void test2012IsLeap() {
+	public void test2012IsLeapYear() {
 		assertTrue(leapYear.isLeap(2012));
 	}
 
 	@Test
-	public void test2016IsLeap() {
+	public void test2016IsLeapYear() {
 		assertTrue(leapYear.isLeap(2016));
 	}
 
 	@Test
-	public void test2017IsLeap() {
+	public void test2017IsLeapYear() {
 		assertFalse(leapYear.isLeap(2017));
 	}
 
 	@Test
-	public void test2018IsLeap() {
+	public void test2018IsLeapYear() {
 		assertFalse(leapYear.isLeap(2018));
 	}
 
 	@Test
-	public void test2019IsLeap() {
+	public void test2019IsLeapYear() {
 		assertFalse(leapYear.isLeap(2019));
 	}
 
