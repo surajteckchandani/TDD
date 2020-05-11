@@ -80,4 +80,8 @@ public class LeapYearTest {
 		assertFalse(leapYear.isLeap(2019));
 	}
 
+	@Test(expected=YearNotValidException.class)
+	public void testIsYearValid() {
+		assertTrue(leapYear.isLeap(200411));
+	}
 }
